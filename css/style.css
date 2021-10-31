@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.bemvindo{
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slogan{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meio{
+    
+    margin-bottom: 50px;
+}
+
+.intro{
+    justify-content: center;
+    display: flex;
+}
+
+.rowimc{
+    margin-bottom: 50px;
+}
+
+.rowtmb{
+    margin-bottom: 50px;
+}
+
+.rowfcm{
+    margin-bottom: 50px;
+}
+
+@media (max-width: 1400px) { 
+    .menu{
+        max-width: 700px;
+    }
+ }
+
+ @media (max-width: 767.98px) { 
+     .menu{
+         max-width: 500px;
+     }
+  }
+
+ @media (max-width: 575.98px) { 
+     .menu{
+         max-width: 350px;
+         display: flex;
+    align-items: center;
+    justify-content: center;
+     }
+ }
